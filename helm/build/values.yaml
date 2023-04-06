@@ -1,0 +1,15 @@
+app:
+  name: poi-map-app
+  namespace: user4
+  cluster: .apps.cluster-2w7cf.2w7cf.sandbox1883.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/backstage-mh5sz/user4-frontend
+  org: backstage-mh5sz
+  name: user4-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: user4/poi-map-app
+  tag: latest
